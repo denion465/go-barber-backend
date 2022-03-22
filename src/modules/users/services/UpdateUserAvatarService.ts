@@ -31,7 +31,6 @@ class UpadateUserAvatarService {
       await this.storageProvider.deleteFile(user.avatar);
     }
 
-    // user.avatar = avatarFilename as string;
     const filename = await this.storageProvider.saveFile(avatarFilename);
 
     user.avatar = filename;
