@@ -4,7 +4,7 @@ import { celebrate, Joi, Segments } from 'celebrate';
 
 import ensureAuthenticated from '../middlewares/ensureAuthenticated';
 import uploadConfig from '@config/upload';
-import UsersController from '../controllers/UsersControllers';
+import UsersController from '../controllers/UsersController';
 import UserAvatarController from '../controllers/UserAvatarController';
 
 const usersRouter = Router();
