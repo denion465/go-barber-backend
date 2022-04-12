@@ -19,11 +19,11 @@ PostgreSQL, MongoDB, Redis
 ### ✅ Cache
 ### ✅ Limite de requisições por segundo
 
-### ✅ Testes unitários 
+### ✅ Testes unitários
 
 Testes unitários com 100% de coverage.
 
-![Alt Text](https://im3.ezgif.com/tmp/ezgif-3-74054f66b6.gif)
+![Alt Text](./src/assets/testsGoBarber.gif)
 
 ## Requisitos
 Node.js com versão acima da 14.x
@@ -32,7 +32,7 @@ Um banco postgres rodando na porta padrão <br>
 Um banco MongoDB rodando na porta padrão <br>
 Um banco Redis rodando na porta padrão
 
-Certifique-se que todos os bancos estão rodando, recomendo o Docker neste caso. 
+Certifique-se que todos os bancos estão rodando, recomendo o Docker neste caso.
 
 ## Como rodar a API:
   * Clone este repositório
