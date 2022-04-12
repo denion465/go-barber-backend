@@ -22,7 +22,7 @@ export default class RedisCacheProvider implements ICacheProvider {
       return null;
     }
 
-    const parsedData = JSON.parse(JSON.stringify(data)) as T;
+    const parsedData = JSON.parse(data) as T;
 
     return parsedData;
   }
