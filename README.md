@@ -26,13 +26,13 @@ Testes unitários com 100% de coverage.
 ![Alt Text](./src/assets/testsGoBarber.gif)
 
 ## Requisitos
-Node.js com versão acima da 14.x
+[Node.js](https://nodejs.org) com versão acima da 14.x
 
-Um banco postgres rodando na porta padrão <br>
-Um banco MongoDB rodando na porta padrão <br>
-Um banco Redis rodando na porta padrão
+Um banco [PostgreSQL](https://www.postgresql.org) rodando na porta padrão <br>
+Um banco [MongoDB](https://www.mongodb.com) rodando na porta padrão <br>
+Um banco [Redis](https://redis.io) rodando na porta padrão
 
-Certifique-se que todos os bancos estão rodando, recomendo o Docker neste caso.
+Certifique-se que todos os bancos estão rodando, recomendo o uso do [Docker](https://www.docker.com) neste caso.
 
 ## Como rodar a API:
   * Clone este repositório
