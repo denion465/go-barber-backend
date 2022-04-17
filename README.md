@@ -14,7 +14,7 @@ PostgreSQL, MongoDB, Redis
 
 ## Features
 
-### ✅ Desenvolvildo com design orientado a domínio #DDD
+### ✅ Desenvolvido com design orientado a domínio #DDD
 ### ✅ Authenticação com JWT
 ### ✅ Cache
 ### ✅ Limite de requisições por segundo
