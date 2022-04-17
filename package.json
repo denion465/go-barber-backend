@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "git@github.com:denion465/go-barber-backend.git",
-  "author": "Daniel Vidal <danielsv465@hotmail.com>",
+  "author": {
+    "name": "Daniel Vidal",
+    "url": "https://github.com/denion465"
+  },
   "license": "MIT",
   "scripts": {
     "build": "tsc",
