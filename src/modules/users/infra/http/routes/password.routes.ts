@@ -3,13 +3,10 @@ import { celebrate, Joi, Segments } from 'celebrate';
 
 import ForgotPasswordController from '../controllers/ForgotPasswordController';
 import ResetPasswordController from '../controllers/ResetPasswordController';
-import ensureAuthenticated from '../middlewares/ensureAuthenticated';
 
 const passwordRouter = Router();
 const forgotPasswordController = new ForgotPasswordController();
 const resetPasswordController = new ResetPasswordController();
-
-passwordRouter.use(ensureAuthenticated);
 
 passwordRouter.post(
   '/forgot',
