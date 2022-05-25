@@ -47,7 +47,7 @@ class ListProviderAppoitmentsService {
       );
     }
 
-    return appointments;
+    return instanceToInstance(appointments);
   }
 }
 
