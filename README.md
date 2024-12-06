@@ -1,7 +1,5 @@
 # Go Barber
 
-Projeto feito no Bootcamp da Rocketseat
-
 ## 🛠 Technologias usadas:
 Node.js, Express, Typescript
 
